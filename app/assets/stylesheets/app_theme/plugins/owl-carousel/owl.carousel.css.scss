@@ -137,25 +137,25 @@
   float: right;
 }
 .owl-prev span{
-  background: asset-path("app_theme/owl/left-arrow.png") no-repeat top; /* change here */
+  background: image-url("app_theme/owl/left-arrow.png") no-repeat top; /* change here */
   width: 7px;
   height: 12px;
   display: block;
 }
 .owl-prev:hover span{
-  background: asset-path("app_theme/owl/left-arrow.png") no-repeat bottom; /* change here */
+  background: image-url("app_theme/owl/left-arrow.png") no-repeat bottom; /* change here */
   width: 7px;
   height: 12px;
   display: block;
 }
 .owl-next span{
-  background: asset-path("app_theme/owl/right-arrow.png") no-repeat top; /* change here */
+  background: image-url("app_theme/owl/right-arrow.png") no-repeat top; /* change here */
   width: 7px;
   height: 12px;
   display: block;
 }
 .owl-next:hover span{
-  background: asset-path("app_theme/owl/right-arrow.png") no-repeat bottom; /* change here */
+  background: image-url("app_theme/owl/right-arrow.png") no-repeat bottom; /* change here */
   width: 7px;
   height: 12px;
   display: block;
