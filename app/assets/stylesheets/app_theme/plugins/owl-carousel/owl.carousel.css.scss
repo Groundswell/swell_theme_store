@@ -7,7 +7,7 @@
 .owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#869791}
 
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -137,25 +137,25 @@
   float: right;
 }
 .owl-prev span{
-  background: url(<%= asset_path( 'app_theme/owl/left-arrow.png' ) %>) no-repeat top; /* change here */
+  background: asset-path("app_theme/owl/left-arrow.png") no-repeat top; /* change here */
   width: 7px;
   height: 12px;
   display: block;
 }
 .owl-prev:hover span{
-  background: url(<%= asset_path( 'app_theme/owl/left-arrow.png' ) %>) no-repeat bottom; /* change here */
+  background: asset-path("app_theme/owl/left-arrow.png") no-repeat bottom; /* change here */
   width: 7px;
   height: 12px;
   display: block;
 }
 .owl-next span{
-  background: url(<%= asset_path( 'app_theme/owl/right-arrow.png' ) %>) no-repeat top; /* change here */
+  background: asset-path("app_theme/owl/right-arrow.png") no-repeat top; /* change here */
   width: 7px;
   height: 12px;
   display: block;
 }
 .owl-next:hover span{
-  background: url(<%= asset_path( 'app_theme/owl/right-arrow.png' ) %>) no-repeat bottom; /* change here */
+  background: asset-path("app_theme/owl/right-arrow.png") no-repeat bottom; /* change here */
   width: 7px;
   height: 12px;
   display: block;
