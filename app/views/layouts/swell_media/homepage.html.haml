@@ -18,7 +18,7 @@
 	%body.body-wrapper
 		.main-wrapper
 			= render 'application/navbar'
-			= render 'application/carousel'
+			= render 'application/homepage_carousel'
 			= render 'application/homepage_main'
 
 			= yield
@@ -26,6 +26,9 @@
 			= render "application/foot"
 
 		= render 'application/footer'
+
+		= render "application/login_modal"
+		= render "application/signup_modal"
 
 		%script{ src: "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" }
 		= javascript_include_tag 'app_theme'

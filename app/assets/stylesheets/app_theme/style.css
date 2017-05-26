@@ -351,7 +351,7 @@ a {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  color: rgba(255, 255, 255, 0.25);
+  /*color: rgba(255, 255, 255, 0.25); */  /*todo -- wtf? */
   text-decoration: none !important;
 }
 
