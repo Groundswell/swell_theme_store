@@ -6,20 +6,30 @@
 					%ul.list-inline
 						%li
 							%a{ href: '' }
-								.fa.fa-twitter
+								.fa.fa-facebook
+						%li
+							%a{ href: '' }
+								.fa.fa-instagram
+						%li
+							%a{ href: '' }
+								.fa.fa-pinterest
 						%li
 							%a{ href: '' }
 								.fa.fa-twitter
 						%li
 							%a{ href: '' }
-								.fa.fa-twitter
-						%li
-							%a{ href: '' }
-								.fa.fa-twitter
+								.fa.fa-rss
+
 				.col-md-6.col-sm-7.col-xs-12
 					%ul.list-inline.pull-right.top-right
 						%li.account-login
-							Login or Create an account
+							%span
+								%a{ href: '.login-modal', data: { toggle: "modal" } }
+									Log in
+									%small
+										or
+								%a{ href: '#signup', data: { toggle: "modal" } } 
+									Create an account
 						%li.searchBox
 							%a{ href: '' }
 								%i.fa.fa-search
@@ -30,8 +40,14 @@
 										%button.input-group-addon{ type: :submit }
 											Submit
 						%li.dropdown.cart-dropdown
-							%a{ href: '' }
-								%i.fa.fa-cart
+							%a.dropdown-toggle{ href: "javascript:void(0)", data: { toggle: "dropdown" } }
+								%i.fa.fa-shopping-cart
+								0
+							%ul.dropdown-menu.dropdown-menu-right
+								%li
+									Items in Your Cart
+
+
 	%nav.navbar.navbar-main.navbar-default{ role: 'navigation' }
 		.container
 			.navbar-header
@@ -42,7 +58,36 @@
 					%span.icon-bar
 					%span.icon-bar
 				%a.navbar-brand{ href: '/' }
-					= image_tag 'amrap_logo.png'
+					= image_tag 'app_theme/logo.png'
+			
+			.collapse.navbar-collapse.navbar-ex1-collapse
+				%ul.nav.navbar-nav.navbar-right
+					%li
+						%a{ href: '#' }
+							Shop
+					%li
+						%a{ href: '#' }
+							Blog
+					%li
+						%a{ href: '#' }
+							Recipes
+					%li
+						%a{ href: '#' }
+							About
+					%li.dropdown
+						%a.dropdown-toggle{ href: "javascript:void(0)", role: :button, 'aria-haspopup' => true, 'aria-expanded' => false, data: { toggle: "dropdown" } } 
+							More
+							%i.fa.fa-chevron-down
+						%ul.dropdown-menu.dropdown-menu-right
+							%li
+								%a{ href: '#' }
+									Inspirations
+							%li
+								%a{ href: '#' }
+									Places
+							%li
+								%a{ href: '#' }
+									Workouts
 
 
 
