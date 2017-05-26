@@ -155,49 +155,49 @@ body.bodyColor.default {
 }
 
 body.bodyColor.pattern-01 {
-  background-image: url("../img/patterns/001.png");
+  background-image: image-url("app_theme/patterns/001.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-02 {
-  background-image: url("../img/patterns/002.png");
+  background-image: image-url("app_theme/patterns/002.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-03 {
-  background-image: url("../img/patterns/003.png");
+  background-image: image-url("app_theme/patterns/003.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-04 {
-  background-image: url("../img/patterns/004.png");
+  background-image: image-url("app_theme/patterns/004.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-06 {
-  background-image: url("../img/patterns/006.png");
+  background-image: image-url("app_theme/patterns/006.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-07 {
-  background-image: url("../img/patterns/007.png");
+  background-image: image-url("app_theme/patterns/007.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-05 {
-  background-image: url("../img/patterns/005.png");
+  background-image: image-url("app_theme/patterns/005.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
@@ -3205,12 +3205,12 @@ body.bodyColor.container {
   float: none;
 }
 .featuredCollection.version2.version3 .productImage1 {
-  background-image: url("../img/home/featured-collection/product-img4.jpg");
+  background-image: image-url("app_theme/home/featured-collection/product-img4.jpg");
   background-repeat: no-repeat;
   background-position: left center;
 }
 .featuredCollection.version2.version3 .productImage2 {
-  background-image: url("../img/home/featured-collection/product-img5.jpg");
+  background-image: image-url("app_theme/home/featured-collection/product-img5.jpg");
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -5782,7 +5782,7 @@ body.bodyColor.container {
 }
 
 .darkSection {
-  background-image: url("../img/about-us/store-bg.jpg");
+  background-image: image-url("app_theme/about-us/store-bg.jpg");
   background-attachment: fixed;
   width: 100%;
   -webkit-background-size: cover;
@@ -6991,7 +6991,7 @@ body.bodyColor.container {
 }
 
 .dropGeneral .sbToggle {
-  background: transparent url("../img/arrows/drop-down-arrow.jpg") no-repeat scroll 0 0;
+  background: transparent image-url("app_theme/arrows/drop-down-arrow.jpg") no-repeat scroll 0 0;
   height: 6px;
   right: 20px;
   top: 21px;
@@ -6999,11 +6999,11 @@ body.bodyColor.container {
 }
 
 .dropGeneral.colorBg .sbToggle {
-  background: transparent url("../img/arrows/down-arrow-white.png") no-repeat scroll 0 0;
+  background: transparent image-url("app_theme/arrows/down-arrow-white.png") no-repeat scroll 0 0;
 }
 
 .dropGeneral.grayBg .sbToggle {
-  background: transparent url("../img/arrows/down-arrow-gray.png") no-repeat scroll 0 0;
+  background: transparent image-url("app_theme/arrows/down-arrow-gray.png") no-repeat scroll 0 0;
 }
 
 .dropGeneral .sbOptions {
