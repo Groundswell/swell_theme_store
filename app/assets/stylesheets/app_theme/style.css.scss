@@ -688,8 +688,21 @@ a:hover, a:focus {
   -o-transition: height 0.3s, width 0.3s;
   transition: height 0.3s, width 0.3s;
 }
-.navbar-brand img {
-  max-width: 100%;
+
+
+
+@media (max-width: 480px) {
+  a.navbar-brand{ 
+    width: 80%; 
+  }
+  .navbar-brand img {
+    max-width: 80%;
+  }
+}
+@media (min-width: 481px) {
+  .navbar-brand img {
+    max-width: 100%;
+  }
 }
 
 .navbar-default {
