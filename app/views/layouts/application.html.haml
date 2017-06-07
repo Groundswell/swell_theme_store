@@ -1,6 +1,8 @@
 !!!strict
 %html{ lang: :en }
 	%head
+		= render 'application/goog_tag'
+
 		= render 'application/html_head', args: {}
 
 		= stylesheet_link_tag "app_theme", media: "all"
@@ -17,6 +19,7 @@
 		<![endif]-->
 
 	%body.body-wrapper
+		= render 'application/analytics'
 		.main-wrapper
 			= render 'application/navbar'
 			= render 'application/flash'
@@ -30,4 +33,4 @@
 		%script{ src: "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" }
 		= javascript_include_tag 'application'
 
-= render 'application/analytics'
+
